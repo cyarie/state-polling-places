@@ -6,6 +6,9 @@
   "email": "cyarie@gmail.com",
   "dependencies": {
     "foundation": "latest",
-    "moment": "latest"
+    "moment": "latest",
+    "d3": "latest",
+    "topojson": "latest",
+    "queue-async": "latest"
   }
 }
