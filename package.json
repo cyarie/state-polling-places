@@ -1,0 +1,15 @@
+{
+  "name": "polling-places",
+  "main": "server.js",
+  "version": "0.1.0",
+  "description": "A rough map of polling place closing times by US state.",
+  "author": "Chris Yarie",
+  "email": "cyarie@gmail.com",
+  "dependencies": {
+    "express": "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "method-override": "latest",
+    "moment": "latest"
+  }
+}
