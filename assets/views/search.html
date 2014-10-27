@@ -32,7 +32,7 @@
     var path = d3.geo.path()
             .projection(projection);
 
-    d3.json("/assets/js/us_master.json", function(error, us) {
+    d3.json("/assets/js/us_states.json", function(error, us) {
         svg.append("g")
                 .attr("id", "country")
                 .selectAll("path")
