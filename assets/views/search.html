@@ -1,4 +1,4 @@
-<div class="container" ng-controller="stateController">
+<div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-12">
             <h1 class="text-center">Where do you live?</h1>
@@ -50,7 +50,7 @@
                 .enter().append("path")
                 .attr("d", path)
                 .attr("class", "feature")
-                .on("click", test);
+                .on("click", test());
 
         svg.append("path")
                 .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
