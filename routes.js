@@ -31,7 +31,7 @@ module.exports = function(app) {
         });
     app.route("/api/states/:state")
         .get(function(req, res) {
-            States.findOne({ "state" : req.body.state }, function(err, state) {
+            States.findOne({ "state" : req.body.state }, 'state description', function(err, state) {
                 if (err) res.send(err);
                 res.json(state);
             })
