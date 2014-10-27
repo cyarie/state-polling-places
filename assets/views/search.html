@@ -26,8 +26,8 @@
             .attr("height", height);
 
     var projection = d3.geo.albersUsa()
-            .scale(width)
-            .translate([width / 2.5, height / 2.5]);
+            .scale(width / 1.5)
+            .translate([width / 2, height / 2]);
 
     var path = d3.geo.path()
             .projection(projection);
