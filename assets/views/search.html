@@ -27,7 +27,7 @@
 
     var projection = d3.geo.albersUsa()
             .scale(width)
-            .translate([width / 2, height / 1.5]);
+            .translate([width / 2, height / 2]);
 
     var path = d3.geo.path()
             .projection(projection);
@@ -38,6 +38,11 @@
                 .selectAll("path")
                 .data(topojson.feature(us, us.objects.usa_geo).features)
                 .enter().append("path")
-                .attr("d", path)
+                .attr("d", path);
+
+        svg.append("g")
+                .selectAll("path")
+                .data(topojson.feature(us, us.objects.usa_states_geo).features)
+                .enter().append("path");
     })
 </script>
