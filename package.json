@@ -10,6 +10,7 @@
     "morgan": "latest",
     "body-parser": "latest",
     "method-override": "latest",
-    "moment": "latest"
+    "moment": "latest",
+    "mongoose": "latest"
   }
 }

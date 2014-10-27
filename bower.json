@@ -9,6 +9,8 @@
     "moment": "latest",
     "d3": "latest",
     "topojson": "latest",
-    "queue-async": "latest"
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-messages": "latest"
   }
 }
