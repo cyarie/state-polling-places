@@ -9,7 +9,7 @@
 
 // this detect only checks the webkit version because
 // the speech attribute is likely to be deprecated in favor of a JavaScript API.
-// http://lists.w3.org/Archives/Public/public-webapps/2011OctDec/att-1696/speechapi.html
+// http://lists.w3.org/Archives/Public/assets-webapps/2011OctDec/att-1696/speechapi.html
 
 // FIXME: add support for detecting the new spec'd behavior
 

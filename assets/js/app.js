@@ -3,6 +3,6 @@ angular.module("polling-places", [
     "ngMessages",
     "appRoutes",
     "stateService",
-    "stateController",
+    "stateCtrl",
     "stateFilters"
 ]);

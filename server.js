@@ -12,7 +12,7 @@ var moment = require("moment");
 // ------------------------------------------------------------
 var port = process.env.PORT || 8001;
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/assets'));
 
 require(__dirname + '/routes')(app);
 
