@@ -5,7 +5,8 @@
   "author": "Chris Yarie",
   "email": "cyarie@gmail.com",
   "dependencies": {
-    "foundation": "latest",
+    "bootstrap": "latest",
+    "angular-bootstrap": "latest",
     "moment": "latest",
     "d3": "latest",
     "topojson": "latest",
