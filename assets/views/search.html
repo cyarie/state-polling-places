@@ -34,17 +34,10 @@
 
     d3.json("/assets/js/us_states.json", function(error, us) {
         svg.append("g")
-                .attr("id", "country")
-                .selectAll("path")
-                .data(topojson.feature(us, us.objects.usa_geo).features)
-                .enter().append("path")
-                .style("stroke-width", "1.5px")
-                .attr("d", path);
-
-        svg.append("g")
                 .selectAll("path")
                 .data(topojson.feature(us, us.objects.usa_states_geo).features)
                 .style("stroke-width", "1.5px")
+                .attr("class", "feature")
                 .enter().append("path");
 
         svg.append("path")
