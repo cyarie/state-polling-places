@@ -1,6 +1,8 @@
 var moment = require("moment");
 
 module.exports = function(app) {
-    app.get("*", function(req, res) { res.send("<a href='http://iwillvote.com'>I Will Vote</a>")})
+    app.get("/polling-places", function(req, res) {
+        res.sendFile(__dirname + "/public/views/index.html")
+    })
 };
 
