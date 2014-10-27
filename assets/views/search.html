@@ -8,22 +8,22 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-md-12 svg-container">
+        <div class="col-xs-12 col-md-12" id="svgContainer">
         </div>
     </div>
 </div>
 <script type="text/javascript">
     var margin = {top: 60, right: 60, bottom: 60, left: 60};
     // var w = 970 - margin.left - margin.right;
-    var width = parseInt(d3.select(".svg-container").style("width"));
+    var width = parseInt(d3.select("#svgContainer").style("width"));
     // var h = 480 - margin.top - margin.bottom;
-    var height = parseInt(d3.select(".svg-container").style("height"));
+    var height = parseInt(d3.select("#svgContainer").style("height"));
 
     var active = d3.select(null);
 
     var stateID = d3.map();
 
-    var svg = d3.select(".svg-container").append(svg)
+    var svg = d3.select("#svgContainer").append(svg)
             .attr("width", width)
             .attr("height", height);
 
@@ -34,12 +34,6 @@
     var path = d3.geo.path()
             .projection(projection);
 
-    svg.append("rect")
-            .attr("class", "background")
-            .attr("width", width)
-            .attr("height", height)
-            .on("click", reset);
-
     d3.json("/assets/js/us_states.json", function(error, us) {
         svg.append("g")
                 .selectAll("path")
@@ -47,19 +41,9 @@
                 .enter().append("path")
                 .attr("d", path);
 
-        g.append("path")
+        svg.append("path")
                 .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
                 .attr("class", "mesh")
                 .attr("d", path);
     });
-
-    function reset() {
-        active.classed("active", false);
-        active = d3.select(null);
-
-        g.transition()
-                .duration(750)
-                .style("stroke-width", "1.5px")
-                .attr("transform", "");
-    }
 </script>
