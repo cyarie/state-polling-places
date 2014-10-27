@@ -38,11 +38,18 @@
                 .selectAll("path")
                 .data(topojson.feature(us, us.objects.usa_geo).features)
                 .enter().append("path")
+                .style("stroke-width", "1.5px")
                 .attr("d", path);
 
         svg.append("g")
                 .selectAll("path")
                 .data(topojson.feature(us, us.objects.usa_states_geo).features)
+                .style("stroke-width", "1.5px")
                 .enter().append("path");
+
+        svg.append("path")
+                .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
+                .attr("class", "mesh")
+                .attr("d", path);
     })
 </script>
