@@ -48,7 +48,8 @@
                 .data(topojson.feature(us, us.objects.usa_states_geo).features)
                 .enter().append("path")
                 .attr("d", path)
-                .attr("class", "feature");
+                .attr("class", "feature")
+                .on("click", clicked);
 
         svg.append("path")
                 .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
