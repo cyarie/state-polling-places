@@ -4,7 +4,7 @@
             <h1 class="text-center">Where do you live?</h1>
             <pre>Test: {{selected | json}}</pre>
             <pre>State: {{selected.state}}</pre>
-            <input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue | limitTo:5" class="form-control">
+            <input type="text" ng-model="selected" typeahead="state.state for state in states | filter:$viewValue | limitTo:5" class="form-control">
         </div>
     </div>
 </div>
