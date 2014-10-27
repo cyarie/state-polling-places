@@ -2,7 +2,7 @@ var moment = require("moment");
 var States = require(__dirname + "/models/states");
 
 module.exports = function(app) {
-    app.get("/polling-places", function(req, res) {
+    app.get("/polling-places/", function(req, res) {
         res.sendFile(__dirname + "/assets/views/index.html")
     });
 
