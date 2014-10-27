@@ -37,13 +37,15 @@
             .attr("width", width)
             .attr("height", height);
 
+    var g = svg.append("g")
+            .style("stroke-width", "1.5px");
+
     d3.json("/assets/js/us_states.json", function(error, us) {
-        svg.append("g")
-                .selectAll("path")
+        g.selectAll("path")
                 .data(topojson.feature(us, us.objects.usa_states_geo).features)
-                .style("stroke-width", "1.5px")
-                .attr("class", "feature")
-                .enter().append("path");
+                .enter().append("path")
+                .attr("d", path)
+                .attr("class", "feature");
 
         svg.append("path")
                 .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
