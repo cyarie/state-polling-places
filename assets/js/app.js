@@ -4,5 +4,6 @@ angular.module("polling-places", [
     "appRoutes",
     "stateService",
     "stateCtrl",
-    "stateFilters"
+    "stateFilters",
+    "ui.bootstrap"
 ]);
