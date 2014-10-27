@@ -18,6 +18,30 @@
     <script src="/assets/js/controllers/stateCtrl.js"></script>
     <script src="/assets/libs/d3/d3.js"></script>
     <script src="/assets/libs/topojson/topojson.js"></script>
+    <style>
+
+    .background {
+      fill: none;
+      pointer-events: all;
+    }
+
+    .feature {
+      fill: #ccc;
+      cursor: pointer;
+    }
+
+    .feature.active {
+      fill: orange;
+    }
+
+    .mesh {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    </style>
 </head>
 <body>
 
