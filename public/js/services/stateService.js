@@ -1,1 +1,1 @@
-angular.module("stateService, []").factory("stateFactory", function($http, $q) {});
+angular.module("stateService", []).factory("stateFactory", function($http, $q) {});
