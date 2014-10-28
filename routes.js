@@ -44,6 +44,7 @@ module.exports = function(app) {
                 _id: req.params.state_id
             }, function(err, state) {
                 if (err) res.send(err);
+                console.log(err);
 
                 States.find(function(err, states) {
                     if (err) res.send(err);
