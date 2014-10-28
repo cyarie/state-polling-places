@@ -46,5 +46,22 @@ module.exports = function(app) {
                 })
             })
         });
+    app.route("/api/states/:id")
+        .delete(function(req, res) {
+            State.remove({
+                _id: req.params.id
+            }, function(err, state) {
+                if (err) res.send(err);
+
+                Calendar.find(function(err, states) {
+                    if (err) res.send(err);
+
+                    Calendar.find(function(err, states) {
+                        if (err) res.send(err);
+                        res.json(states);
+                    })
+                })
+            })
+        });
 };
 
