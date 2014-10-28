@@ -48,7 +48,7 @@ module.exports = function(app) {
         });
     app.route("/api/states/:id")
         .delete(function(req, res) {
-            State.remove({
+            States.remove({
                 _id: req.params.id
             }, function(err, state) {
                 if (err) res.send(err);
