@@ -50,7 +50,10 @@
                 .enter().append("path")
                 .attr("d", path)
                 .attr("class", "feature")
-                .on("click", clicked);
+                .on("click", function(d) {
+                    console.log(d.properties.state);
+                    clicked(d);
+                });
 
         g.append("path")
                 .datum(topojson.mesh(us, us.objects.usa_states_geo, function(a, b) { return a !== b; }))
