@@ -29,23 +29,15 @@ module.exports = function(app) {
                 })
             })
         });
+
     app.route("/api/states/:state")
         .get(function(req, res) {
             States.findOne({ "state" : req.params.state }, function(err, state) {
                 if (err) res.send(err);
                 res.json(state);
             })
-        })
-        .delete(function(req, res) {
-            States.remove({ state : req.params.state }, function(err, state) {
-                if (err) res.send(err);
-
-                States.find(function(err, states) {
-                    if (err) res.send(err);
-                    res.json(states);
-                })
-            })
         });
+
     app.route("/api/states/:state_id")
         .delete(function(req, res) {
             States.remove({
