@@ -14,15 +14,15 @@
             <form class="form" role="form">
                 <div class="form-group">
                     <label class="sr-only" for="stateName">State Name</label>
-                    <input type="text" class="form-control" id="stateName" placeholder="State Name" ng-model="stateData.state">
+                    <input type="text" class="form-control" id="stateName" placeholder="State Name" ng-model="createState.state">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="stateAbbr">State Name</label>
-                    <input type="text" class="form-control" id="stateAbbr" placeholder="State Abbreviation" ng-model="stateData.stateAbbr">
+                    <input type="text" class="form-control" id="stateAbbr" placeholder="State Abbreviation" ng-model="createState.stateAbbr">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="stateInfo">State Name</label>
-                    <input type="text" class="form-control" id="stateInfo" placeholder="State Name" ng-model="stateData.description">
+                    <input type="text" class="form-control" id="stateInfo" placeholder="State Name" ng-model="createState.description">
                 </div>
             </form>
             <button type="submit" class="btn btn-primary" ng-click="makeState()">Create a state</button>
