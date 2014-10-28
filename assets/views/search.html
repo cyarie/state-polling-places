@@ -50,9 +50,8 @@
                 .enter().append("path")
                 .attr("d", path)
                 .attr("class", "feature")
-                .on("click", function(d) {
-                    clicked;
-                    console.log(d.properties.state);
+                .on("click", function() {
+                    clicked(d);
                 });
 
         g.append("path")
