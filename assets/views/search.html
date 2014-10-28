@@ -50,7 +50,7 @@
                 .enter().append("path")
                 .attr("d", path)
                 .attr("class", "feature")
-                .on("click", function() {
+                .on("click", function(d) {
                     clicked(d);
                 });
 
