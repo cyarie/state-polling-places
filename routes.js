@@ -30,14 +30,6 @@ module.exports = function(app) {
             })
         });
 
-    app.route("/api/states/:state")
-        .get(function(req, res) {
-            States.findOne({ "state" : req.params.state }, function(err, state) {
-                if (err) res.send(err);
-                res.json(state);
-            })
-        });
-
     app.route("/api/states/:state_id")
         .delete(function(req, res) {
             States.remove({
