@@ -31,7 +31,8 @@ body {
   margin: auto; }
   @media (max-width: 768px) {
     .form-control {
-      width: 90%; } }
+      width: 90%;
+      margin-left: 2%; } }
 
 @media (max-width: 768px) {
   .info-set {
