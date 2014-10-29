@@ -24,6 +24,11 @@ body {
   width: auto;
   max-width: 100%;
 }
+
 .container .text-muted {
   margin: 20px 0;
+}
+
+.form-control {
+  max-width: 50%;
 }
