@@ -5,7 +5,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var StateSchema = new Schema({
-    state: String,
+    stateName: String,
     stateAbbr: String,
     description: String
 });

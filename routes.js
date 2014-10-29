@@ -15,7 +15,7 @@ module.exports = function(app) {
         })
         .post(function(req, res) {
             States.create({
-                state : req.body.state,
+                stateName : req.body.stateName,
                 stateAbbr : req.body.stateAbbr,
                 description : req.body.description,
                 done : false
