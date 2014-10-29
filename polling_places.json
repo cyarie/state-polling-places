@@ -1,0 +1,51 @@
+{ "state" : "Alaska", "stateAbbr" : "AK", "description" : "Polls close at 8:00 PM AKST and 8:00 PM HAST.", "_id" : { "$oid" : "544ff7d8c78b424344662f37" }, "__v" : 0 }
+{ "state" : "Alabama", "stateAbbr" : "AL", "description" : "Polls close at 7:00 PM CST.", "_id" : { "$oid" : "5450115b6ae576114547d483" }, "__v" : 0 }
+{ "state" : "Arizona", "stateAbbr" : "AZ", "description" : "Polls close at 7:00 PM MST.", "_id" : { "$oid" : "545011746ae576114547d484" }, "__v" : 0 }
+{ "state" : "Arkansas", "stateAbbr" : "AR", "description" : "Polls close at 7:30 PM CST.", "_id" : { "$oid" : "545011946ae576114547d485" }, "__v" : 0 }
+{ "state" : "California", "stateAbbr" : "CA", "description" : "Polls close at 8:00 PM PST.", "_id" : { "$oid" : "545011b06ae576114547d486" }, "__v" : 0 }
+{ "state" : "Colorado", "stateAbbr" : "CO", "description" : "Polls close at 7:00 PM MST.", "_id" : { "$oid" : "545011c46ae576114547d487" }, "__v" : 0 }
+{ "state" : "Connecticut", "stateAbbr" : "CT", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "545011e46ae576114547d488" }, "__v" : 0 }
+{ "state" : "Delaware", "stateAbbr" : "DE", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "5450140d6ae576114547d489" }, "__v" : 0 }
+{ "state" : "District of Columbia", "stateAbbr" : "DC", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "5450141c6ae576114547d48a" }, "__v" : 0 }
+{ "state" : "Florida", "stateAbbr" : "FL", "description" : "Polls close at 7:00 PM EST or 7:00 PM CST, depending on where you live.", "_id" : { "$oid" : "545014636ae576114547d48b" }, "__v" : 0 }
+{ "state" : "Georgia", "stateAbbr" : "GA", "description" : "Polls close at 7:00 PM EST.", "_id" : { "$oid" : "5450147a6ae576114547d48c" }, "__v" : 0 }
+{ "state" : "Hawaii", "stateAbbr" : "HI", "description" : "Polls close at 6:00 PM HAST.", "_id" : { "$oid" : "545014a16ae576114547d48d" }, "__v" : 0 }
+{ "state" : "Idaho", "stateAbbr" : "ID", "description" : "Polls close at 8:00 PM MST or 8:00 PM PST, depending on where you live.", "_id" : { "$oid" : "54501a256ae576114547d48e" }, "__v" : 0 }
+{ "state" : "Illinois", "stateAbbr" : "IL", "description" : "Polls close at 7:00 PM CST.", "_id" : { "$oid" : "54501a436ae576114547d48f" }, "__v" : 0 }
+{ "state" : "Indiana", "stateAbbr" : "IN", "description" : "Polls close at 6:00 PM CST or 6:00 PM EST, depending on where you live.", "_id" : { "$oid" : "54501a7a6ae576114547d490" }, "__v" : 0 }
+{ "state" : "Iowa", "stateAbbr" : "IA", "description" : "Polls close at 9:00 PM CST.", "_id" : { "$oid" : "54501a916ae576114547d491" }, "__v" : 0 }
+{ "state" : "Kansas", "stateAbbr" : "KS", "description" : "Polls usually close at 7:00 PM CST or 7:00 PM MST, depending on where you live.", "_id" : { "$oid" : "54501b536ae576114547d494" }, "__v" : 0 }
+{ "state" : "Kentucky", "stateAbbr" : "KY", "description" : "Polls close at 6:00 PM CST or 6:00 PM EST, depending on where you live.", "_id" : { "$oid" : "54501b666ae576114547d495" }, "__v" : 0 }
+{ "state" : "Louisiana", "stateAbbr" : "LA", "description" : "Polls close at 8:00 PM CST.", "_id" : { "$oid" : "54501fee7956d76f459048ce" }, "__v" : 0 }
+{ "state" : "Maine", "stateAbbr" : "ME", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "545020057956d76f459048cf" }, "__v" : 0 }
+{ "state" : "Maryland", "stateAbbr" : "MD", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "545020137956d76f459048d0" }, "__v" : 0 }
+{ "state" : "Massachusetts", "stateAbbr" : "MA", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "545020207956d76f459048d1" }, "__v" : 0 }
+{ "state" : "Michigan", "stateAbbr" : "MI", "description" : "Polls close at 8:00 PM EST or 8:00 PM CST, depending on where you live.", "_id" : { "$oid" : "545020407956d76f459048d2" }, "__v" : 0 }
+{ "state" : "Minnesota", "stateAbbr" : "MN", "description" : "Polls close at 8:00 PM CST.", "_id" : { "$oid" : "5450204e7956d76f459048d3" }, "__v" : 0 }
+{ "state" : "Mississippi", "stateAbbr" : "MS", "description" : "Polls close at 7:00 PM CST.", "_id" : { "$oid" : "545020607956d76f459048d4" }, "__v" : 0 }
+{ "state" : "Missouri", "stateAbbr" : "MO", "description" : "Polls close at 7:00 PM CST.", "_id" : { "$oid" : "5450206a7956d76f459048d5" }, "__v" : 0 }
+{ "state" : "Montana", "stateAbbr" : "MT", "description" : "Polls close at 8:00 PM MST, or when all the registered voters in a town have voted.", "_id" : { "$oid" : "545020887956d76f459048d6" }, "__v" : 0 }
+{ "state" : "Nebraska", "stateAbbr" : "NE", "description" : "Polls close at 7:00 PM MST or 8:00 PM CST, depending on where you live.", "_id" : { "$oid" : "545020c87956d76f459048d7" }, "__v" : 0 }
+{ "state" : "Nevada", "stateAbbr" : "NV", "description" : "Polls close at 7:00 PM PST.", "_id" : { "$oid" : "545020d77956d76f459048d8" }, "__v" : 0 }
+{ "state" : "New Hampshire", "stateAbbr" : "NH", "description" : "Most polls will close at 7:00 PM EST, but it depends on where you live.", "_id" : { "$oid" : "545021237956d76f459048d9" }, "__v" : 0 }
+{ "state" : "New Jersey", "stateAbbr" : "NJ", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "5450212e7956d76f459048da" }, "__v" : 0 }
+{ "state" : "New Mexico", "stateAbbr" : "NM", "description" : "Polls close at 7:00 PM MST.", "_id" : { "$oid" : "545021447956d76f459048db" }, "__v" : 0 }
+{ "state" : "New York", "stateAbbr" : "NY", "description" : "Polls close at 9:00 PM EST.", "_id" : { "$oid" : "545021587956d76f459048dc" }, "__v" : 0 }
+{ "state" : "North Carolina", "stateAbbr" : "NC", "description" : "Polls usually close at 7:30 PM EST, but local counties may keep polls open until 8:30 PM EST in \"extraordinary circumstances\".", "_id" : { "$oid" : "545021877956d76f459048dd" }, "__v" : 0 }
+{ "state" : "North Dakota", "stateAbbr" : "ND", "description" : "Polls can close anywhere between 7:00 - 9:00 PM CST/MST, depending on the size of your town.", "_id" : { "$oid" : "54503a6d2146023d48d1753c" }, "__v" : 0 }
+{ "state" : "Ohio", "stateAbbr" : "OH", "description" : "Polls close at 7:30 PM EST.", "_id" : { "$oid" : "54503a842146023d48d1753d" }, "__v" : 0 }
+{ "state" : "Oklahoma", "stateAbbr" : "OK", "description" : "Polls close at 7:00 PM CST.", "_id" : { "$oid" : "54503aa52146023d48d1753e" }, "__v" : 0 }
+{ "state" : "Oregon", "stateAbbr" : "OR", "description" : "Your mail-in ballot must be returned to election workers or an official drop-off location by 8:00 PM PST or 8:00 PM MST, depending on where you live.", "_id" : { "$oid" : "54503afd2146023d48d1753f" }, "__v" : 0 }
+{ "state" : "Pennsylvania", "stateAbbr" : "PA", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "54503b472146023d48d17540" }, "__v" : 0 }
+{ "state" : "Rhode Island", "stateAbbr" : "RI", "description" : "Polls close at 8:00 PM EST.", "_id" : { "$oid" : "54503b672146023d48d17541" }, "__v" : 0 }
+{ "state" : "South Carolina", "stateAbbr" : "SC", "description" : "Polls close at 7:00 PM EST.", "_id" : { "$oid" : "54503b872146023d48d17542" }, "__v" : 0 }
+{ "state" : "South Dakota", "stateAbbr" : "SD", "description" : "Polls close at 7:00 PM CST or 7:00 PM MST, depending on where you live.", "_id" : { "$oid" : "54503bb62146023d48d17543" }, "__v" : 0 }
+{ "state" : "Tennessee", "stateAbbr" : "TN", "description" : "Polls close at 8:00 PM EST or 7:00 PM CST, depending on where you live.", "_id" : { "$oid" : "54503bfb2146023d48d17544" }, "__v" : 0 }
+{ "state" : "Texas", "stateAbbr" : "TX", "description" : "Polls close at 7:00 PM CST or 7:00 PM MST, depending on where you live.", "_id" : { "$oid" : "54503c462146023d48d17545" }, "__v" : 0 }
+{ "state" : "Utah", "stateAbbr" : "UT", "description" : "Polls close at 8:00 PM MST.", "_id" : { "$oid" : "54503c5f2146023d48d17546" }, "__v" : 0 }
+{ "state" : "Vermont", "stateAbbr" : "VT", "description" : "Polls close at 7:00 PM EST.", "_id" : { "$oid" : "54503c6c2146023d48d17547" }, "__v" : 0 }
+{ "state" : "Virginia", "stateAbbr" : "VA", "description" : "Polls close at 7:00 PM EST.", "_id" : { "$oid" : "54503c7c2146023d48d17548" }, "__v" : 0 }
+{ "state" : "Washington", "stateAbbr" : "WA", "description" : "Mail-in ballots must be post-marked by or before election day, or dropped off at an official drop-off location before 8 PM PST.", "_id" : { "$oid" : "54503cc12146023d48d17549" }, "__v" : 0 }
+{ "state" : "West Virginia", "stateAbbr" : "WV", "description" : "Polls close at 7:30 PM EST.", "_id" : { "$oid" : "54503d012146023d48d1754a" }, "__v" : 0 }
+{ "state" : "Wisconsin", "stateAbbr" : "WI", "description" : "Polls close at 8:00 PM CST.", "_id" : { "$oid" : "54503d182146023d48d1754b" }, "__v" : 0 }
+{ "state" : "Wyoming", "stateAbbr" : "WY", "description" : "Polls close at 7:00 PM MST.", "_id" : { "$oid" : "54503d2c2146023d48d1754c" }, "__v" : 0 }
