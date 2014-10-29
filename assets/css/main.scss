@@ -7,8 +7,9 @@ html {
 
 body {
   font-family: 'Roboto Slab', serif;
-  background-color: #eee;
+  background-color: #00aef3;
   margin-bottom: 60px;
+  color: #eee;
 }
 
 .footer {
@@ -17,14 +18,12 @@ body {
   width: 100%;
   /* Sets fixed height of the footer */
   height: 60px;
-  background-color: #eee;
+  background-color: #00aef3;
 }
 
 .container {
   width: auto;
   max-width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .container .text-muted {
@@ -53,4 +52,14 @@ body {
   @media (max-width: 768px) {
     font-size: 115%;
   }
+}
+
+a {
+  color: #0070d0;
+}
+
+.well {
+  background-color: #0f2446;
+  border-color: #0f2446;
+  border-radius: 0px;
 }
