@@ -21,4 +21,8 @@ angular.module("stateCtrl", []).controller("stateController", function($scope, $
             })
     };
 
+    $scope.$on("$ContentLoaded", function(event) {
+        $window.ga("send", "pageview", { page: $location.path() });
+    });
+
 });
