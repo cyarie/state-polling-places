@@ -35,6 +35,7 @@ body {
 
 @media (max-width: 768px) {
   .info-set {
-    width: 75%; } }
+    width: 75%;
+    margin-left: auto; } }
 
 /*# sourceMappingURL=main.css.map */
