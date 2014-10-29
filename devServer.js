@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // override with the X-HTTP-Method-Override header in the request; simulates DELETE/PUT
 app.use(methodOverride('X-HTTP-Method-Override'));
 
-app.use(express.static(__dirname + '/assets'));
+app.use("/assets", express.static(__dirname + '/assets'));
 
 require(__dirname + '/routes')(app);
 
