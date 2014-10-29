@@ -1,4 +1,4 @@
-angular.module("stateCtrl", []).controller("stateController", function($scope, $http, stateFactory) {
+angular.module("stateCtrl", []).controller("stateController", function($scope, $http, $location, $window, stateFactory) {
     $scope.createState = {};
     $scope.stateData = {};
     $scope.states = {};
@@ -19,6 +19,10 @@ angular.module("stateCtrl", []).controller("stateController", function($scope, $
             .error(function(error) {
                 console.log(error)
             })
-    }
+    };
+
+    $scope.$on('$viewContentLoaded', function(event) {
+        $window.ga('send', 'pageview', { page: $location.path() });
+    });
 
 });
