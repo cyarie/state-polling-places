@@ -6,11 +6,6 @@ angular.module("appRoutes", []).config(["$routeProvider",
                 controller: "stateController"
             })
 
-            .when("/states", {
-                templateUrl: "/assets/views/states.html",
-                controller: "stateController"
-            })
-
             .otherwise({
                 redirectTo: "/"
             })

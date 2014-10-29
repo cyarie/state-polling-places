@@ -8,42 +8,5 @@
             <input type="text" ng-model="selected" typeahead="state as state.state for state in states | filter:$viewValue | limitTo:5" class="form-control">
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-12">
-            <h1>Enter some state info: </h1>
-            <form class="form" role="form">
-                <div class="form-group">
-                    <label class="sr-only" for="stateName">State Name</label>
-                    <input type="text" class="form-control" id="stateName" placeholder="State Name" ng-model="createState.state">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="stateAbbr">State Name</label>
-                    <input type="text" class="form-control" id="stateAbbr" placeholder="State Abbreviation" ng-model="createState.stateAbbr">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="stateInfo">State Name</label>
-                    <input type="text" class="form-control" id="stateInfo" placeholder="State Name" ng-model="createState.description">
-                </div>
-            </form>
-            <button type="submit" class="btn btn-primary" ng-click="makeState()">Create a state</button>
-            <br />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-12">
-            <table class="table">
-                <tr>
-                    <th>State</th>
-                    <th>Abbreviation</th>
-                    <th>Data</th>
-                </tr>
-                <tr ng-repeat="state in stateData">
-                    <td>{{ state.state }}</td>
-                    <td>{{ state.stateAbbr }}</td>
-                    <td>{{ state.description }}</td>
-                </tr>
-            </table>
-        </div>
-    </div>
 </div>
 
