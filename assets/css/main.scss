@@ -32,7 +32,7 @@ body {
 .form-control {
   max-width: 100%;
   width: 50%;
-  padding: auto;
+  margin: auto;
   @media (max-width: 768px) {
     width: 100%;
   }
