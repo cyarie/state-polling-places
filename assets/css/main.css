@@ -16,4 +16,12 @@ body {
   height: 60px;
   background-color: #eee; }
 
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px; }
+
+.container .text-muted {
+  margin: 20px 0; }
+
 /*# sourceMappingURL=main.css.map */
