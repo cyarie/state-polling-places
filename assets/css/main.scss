@@ -14,7 +14,7 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: auto;
   /* Sets fixed height of the footer */
   height: 60px;
   background-color: #eee;
@@ -23,6 +23,8 @@ body {
 .container {
   width: auto;
   max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .container .text-muted {
