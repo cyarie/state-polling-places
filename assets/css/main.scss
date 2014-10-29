@@ -1,4 +1,21 @@
+/* Main Content */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   background-color: #eee;
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Sets fixed height of the footer */
+  height: 60px;
+  background-color: #ccc;
 }
