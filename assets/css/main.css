@@ -35,7 +35,7 @@ body {
 @media (max-width: 768px) {
   .info-set {
     width: 75%;
-    margin-left: 11%; } }
+    margin-left: 7%; } }
 
 .details {
   font-size: 150%; }
@@ -50,5 +50,9 @@ a {
   background-color: #0f2446;
   border-color: #0f2446;
   border-radius: 0px; }
+
+@media (max-width: 768px) {
+  .footer-info {
+    margin-right: 10%; } }
 
 /*# sourceMappingURL=main.css.map */

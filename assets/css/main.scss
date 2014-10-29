@@ -43,7 +43,7 @@ body {
 .info-set {
   @media (max-width: 768px) {
     width: 75%;
-    margin-left: 11%;
+    margin-left: 7%;
   }
 }
 
@@ -62,4 +62,10 @@ a {
   background-color: #0f2446;
   border-color: #0f2446;
   border-radius: 0px;
+}
+
+.footer-info {
+  @media (max-width: 768px) {
+    margin-right: 10%;
+  }
 }
