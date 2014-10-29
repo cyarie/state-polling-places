@@ -38,4 +38,10 @@ body {
     width: 75%;
     margin-left: 11%; } }
 
+.details {
+  font-size: 150%; }
+  @media (max-width: 768px) {
+    .details {
+      font-size: 100%; } }
+
 /*# sourceMappingURL=main.css.map */

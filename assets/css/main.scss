@@ -47,3 +47,10 @@ body {
     margin-left: 11%;
   }
 }
+
+.details {
+  font-size: 150%;
+  @media (max-width: 768px) {
+    font-size: 100%;
+  }
+}
