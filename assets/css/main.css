@@ -15,9 +15,6 @@ body {
   /* Sets fixed height of the footer */
   height: 60px;
   background-color: #eee; }
-  @media (max-width: 768px) {
-    .footer {
-      width: 95%; } }
 
 .container {
   width: auto;
