@@ -12,41 +12,6 @@ module.exports = function(app) {
                 if (err) res.send(err);
                 res.json(states);
             })
-        })
-        .post(function(req, res) {
-            States.create({
-                stateName : req.body.stateName,
-                stateAbbr : req.body.stateAbbr,
-                description : req.body.description,
-                done : false
-            }, function(err, state) {
-                if (err) res.send(err);
-
-                States.find(function(err, states) {
-                    if (err) res.send(err);
-                    res.json(states);
-                    console.log("STATE CREATED");
-                })
-            })
-        });
-
-    app.route("/api/states/:state_id")
-        .delete(function(req, res) {
-            States.remove({
-                _id: req.params.state_id
-            }, function(err, state) {
-                if (err) res.send(err);
-                console.log(err);
-
-                States.find(function(err, states) {
-                    if (err) res.send(err);
-
-                    States.find(function(err, states) {
-                        if (err) res.send(err);
-                        res.json(states);
-                    })
-                })
-            })
         });
 };
 
