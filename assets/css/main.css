@@ -35,8 +35,7 @@ body {
 
 @media (max-width: 768px) {
   .info-set {
-    width: 75%;
-    margin-left: 11%; } }
+    width: 75%; } }
 
 .details {
   font-size: 150%; }
