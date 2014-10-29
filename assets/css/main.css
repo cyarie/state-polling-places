@@ -50,7 +50,8 @@ a {
 .well {
   background-color: #0f2446;
   border-color: #0f2446;
-  border-radius: 0px; }
+  border-radius: 0px;
+  width: 100%; }
 
 @media (max-width: 768px) {
   .footer-info {
