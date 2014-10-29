@@ -46,6 +46,6 @@
 { "stateName" : "Vermont", "stateAbbr" : "VT", "description" : "Polls close at 7:00 PM Eastern Time.", "_id" : { "$oid" : "54503c6c2146023d48d17547" }, "__v" : 0 }
 { "stateName" : "Virginia", "stateAbbr" : "VA", "description" : "Polls close at 7:00 PM Eastern Time.", "_id" : { "$oid" : "54503c7c2146023d48d17548" }, "__v" : 0 }
 { "stateName" : "Washington", "stateAbbr" : "WA", "description" : "Mail-in ballots must be post-marked by or before election day, or dropped off at an official drop-off location before 8 PM Pacific Time.", "_id" : { "$oid" : "54503cc12146023d48d17549" }, "__v" : 0 }
-{ "stateName" : "WEastern Time Virginia", "stateAbbr" : "WV", "description" : "Polls close at 7:30 PM Eastern Time.", "_id" : { "$oid" : "54503d012146023d48d1754a" }, "__v" : 0 }
+{ "stateName" : "West Virginia", "stateAbbr" : "WV", "description" : "Polls close at 7:30 PM Eastern Time.", "_id" : { "$oid" : "54503d012146023d48d1754a" }, "__v" : 0 }
 { "stateName" : "Wisconsin", "stateAbbr" : "WI", "description" : "Polls close at 8:00 PM Central Time.", "_id" : { "$oid" : "54503d182146023d48d1754b" }, "__v" : 0 }
 { "stateName" : "Wyoming", "stateAbbr" : "WY", "description" : "Polls close at 7:00 PM MST.", "_id" : { "$oid" : "54503d2c2146023d48d1754c" }, "__v" : 0 }
