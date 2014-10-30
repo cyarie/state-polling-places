@@ -54,8 +54,8 @@ body {
   }
 }
 
-a {
-  color: #0070d0;
+.info-set a {
+  color: #73b7ec;
 }
 
 .well {
@@ -69,4 +69,8 @@ a {
   @media (max-width: 768px) {
     margin-right: 10%;
   }
+}
+
+.footer-info a {
+  color: #0a172d;
 }

@@ -43,8 +43,8 @@ body {
     .details {
       font-size: 115%; } }
 
-a {
-  color: #0070d0; }
+.info-set a {
+  color: #73b7ec; }
 
 .well {
   background-color: #0f2446;
@@ -55,5 +55,8 @@ a {
 @media (max-width: 768px) {
   .footer-info {
     margin-right: 10%; } }
+
+.footer-info a {
+  color: #0a172d; }
 
 /*# sourceMappingURL=main.css.map */
