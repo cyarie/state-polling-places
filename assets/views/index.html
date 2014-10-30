@@ -34,7 +34,10 @@
     <div class="row">
         <div class="col-xs-12 col-md-12">
             <h1 class="text-center">Which state do you live in?</h1>
-            <input type="text" class="form-control" ng-model="selected" typeahead="state as state.stateName for state in states | filter:$viewValue | limitTo:5" class="form-control">
+            <div class="input-group">
+                <input type="text" class="form-control" ng-model="selected" typeahead="state as state.stateName for state in states | filter:$viewValue | limitTo:5" class="form-control">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+            </div>
         </div>
     </div>
     <br />

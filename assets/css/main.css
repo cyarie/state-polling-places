@@ -24,12 +24,12 @@ body {
 .container .text-muted {
   margin: 20px 0; }
 
-.form-control {
+.input-group {
   max-width: 100%;
   width: 35%;
   margin: auto; }
   @media (max-width: 768px) {
-    .form-control {
+    .input-group {
       width: 90%;
       margin-right: 5%; } }
 
